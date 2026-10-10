@@ -1,0 +1,72 @@
+ .JATIN {
+     font-weight: 400;
+     font-size: 45PX;
+ }
+
+ body {
+     background-color: #FB6C00;
+     text-align: center;
+     color: white;
+ }
+
+
+ .countiner {
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     height: 70vh;
+     display: flex;
+ }
+
+ .game {
+     height: 60vmin;
+     width: 60vmin;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 1.5vmin;
+ }
+
+ .box {
+     height: 18vmin;
+     width: 18vmin;
+     border-radius: 2rem;
+     border: none;
+     background-color: rgb(255, 243, 70);
+     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+     font-size: 12vmin;
+     color: rgb(255, 7, 7);
+     cursor: pointer;
+ }
+
+ .restart {
+     padding: 1.5rem;
+     font-size: 1rem;
+     font-weight: bold;
+     border-radius: 1rem;
+     border: none;
+ }
+
+ #new {
+     padding: 0.5rem;
+     font-size: 1rem;
+     font-weight: bold;
+     border-radius: 1rem;
+     border: none;
+ }
+
+ #msg {
+     color: rgb(255, 243, 70);
+     font-size: 8vmin;
+     padding-bottom: 3rem;
+ }
+
+ .hide {
+     display: none;
+ }
+
+ #msg-container {
+     height:30vmin;
+
+ }
